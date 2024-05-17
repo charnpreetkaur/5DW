@@ -1,0 +1,94 @@
+/* #logo {
+  margin-left: 150px;
+}
+#navbarNav {
+  margin-right: 230px;
+} */
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.home_bg {
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 1) 35%,
+      rgba(254, 28, 119, 0.4234943977591037) 38%
+    ),
+    url(new_bg.jpg);
+  /* background-color: rgba (0, 0, 0, 0.5);
+  background-blend-mode: overlay; */
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* .home_bg h4 {
+  padding-top: 450px;
+} */
+
+#nav_btn {
+  background-color: rgb(254, 28, 119);
+  color: white;
+}
+.middle_part {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn_hvr {
+  border: rgb(254, 28, 119) solid 1px;
+  border-bottom: rgb(254, 28, 119) solid 3px;
+  border-radius: 0%;
+  color: rgb(254, 28, 119);
+}
+.btn_hvr:hover {
+  background-color: rgb(254, 28, 119);
+  color: white;
+}
+/* .process_section {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+.process_section {
+  background-image: url(process_bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.second_example {
+  background-image: url(example_1.jpg);
+  background-size: cover;
+  /* filter: brightness(0.4); */
+  color: rgb(254, 28, 119);
+}
+.third_example {
+  background-image: url(example_2.jpg);
+  background-size: cover;
+  color: rgb(254, 28, 119);
+}
+.forth_example {
+  background-image: url(example_3.jpg);
+  background-size: cover;
+  color: rgb(254, 28, 119);
+}
+.fith_example {
+  background-image: url(example_4.jpg);
+  background-size: cover;
+  color: rgb(254, 28, 119);
+}
+.sixth_example {
+  background-image: url(example_5.jpg);
+  background-size: cover;
+  color: rgb(254, 28, 119);
+}
+.package_section {
+  background-color: whitesmoke;
+}
+.intro_section {
+  background-image: url(process_bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
